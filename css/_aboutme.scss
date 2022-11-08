@@ -1,0 +1,59 @@
+#phone{
+    width: 600px;
+    height: 100vh;
+   // margin-top: -150px;
+    position: absolute;
+}
+.origins{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    //margin-left: 13.9%;
+    
+}
+
+.phoneandtext{
+    margin-top: 5%;
+    padding-left: 500px;
+}
+.subtitles{
+    margin-left: 50%;
+}
+#sub{
+  text-align: left; 
+  margin-top: 30px ;
+
+}
+.break-origins {
+    display: block;
+    padding-top: 16px;
+}
+.text-origins {
+    width: 464px;
+    padding-top: 15px;
+    font-size: 20px;
+    margin-left: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+
+#phone{
+    width: 360px;
+    height: 519px;
+    margin-top: -110px;
+    position: relative;
+}
+.origins {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    }
+.phoneandtext{
+    display: block;
+    padding-left: 1px;
+    }
+
+.text-origins {
+    width: auto;
+}
+}
