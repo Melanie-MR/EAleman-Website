@@ -1,72 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c1d53aba1c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" id="dark" href="css/style.css">
+    <link rel="stylesheet" id="dark" href="css/contactme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
     <title>Eidsbel Aleman</title>
-</head>
 <body>
-    <video autoplay loop muted plays-inline class="back-video">
-        <source src="images\pinguin.mp4" type="video/mp4">
-    </video>
   
     <header>
-        <!--navbar-->
-      
-        <div class="nav">
-            <a class="link-home" href="index.html"><h2 id="logo" class="logo">EIDSBEL ALEMAN</h2></a>
-            <input type="checkbox" id="toggle" value="flag"/>
-            <div class="menu">
-                <ul class="menu__list">
-                    <li class="list-nav"><a class="menu__list--" href="#aboutme">About me</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="music.html">Music</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="dance.html">Dance</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="monologue.htm">ESTROPROGESTEDONNA</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="contact.html">Contact me</a></li>
-                    <li class="list-nav"><a class="menu__list-- switch" id= "switch" href="#"><span>Italian</span></a></li>
+    <!--navbar-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Eidsbel Aleman</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">About me</a></li>
+                  <li><a href="music.html">Music</a></li>
+                  <li><a href="dance.html">Dance</a></li>
+                  <li><a href="monologue.html">ESTROPROGESTEDONNA</a></li>
+                  <li><a href="#">Contact me</a></li>
+                  <li class="list-nav"><a class="menu__list-- switch" id= "switch" href="#"><span>Italian</span></a></li>
                 </ul>
+              </div>
             </div>
-            <label id="hamburger" for="toggle" class="menu2">
-                    <span class="bar"></span>
-                    <span class="exs"></span>
-            </label>
-        </div>
-        
+          </nav>
+       
     </header>
+    
 
     <!--main-->
 
-    <main class="main__content">  
-        <!--music-->
-        <div class="music">
-            <!--title_header-->
-            <div class="artist"> 
-                <h1>Eidsbel Aleman</h1>
-            </div>
+        <!--contact form
+        <div class="container">
+            <form action="send.php" method="post" class="contact">
+                <h2 id="contact-title">Contact me</h2>
+                <input type="text" name="Name" placeholder="Name" id="margin" required>
+                <input type="email" name="email" id="email" placeholder="E-mail" id="margin"required>
+                <textarea name="msg" rows= "4" placeholder="Write your message here" id="margin" required></textarea>
+                <input type="submit" value="send" id="button" id="margin">
+            </form>
+        </div>
+        -->
 
-    </div>
-    <!--dance-->
-    <!--monologue-->
-    <!--contact me-->
-    <!--italian-->
+            <!--contact form-->
+            <div class="container">
+             <!--<form onsubmit="sendEmail(); reset(); return false;" class="contact">-->
+                
+            <!--  prueba 2
+              <form action=http://FormMail.aruba.it/cgi-bin/FormMail.pl method=post class="contact">
 
-    </main>
+                  <h2 id="contact-title">Contact me</h2>
+                  <input name=subject type=hidden value="OGGETTO">
+                  <input name=recipient type=hidden value="info@eidsbelaleman.com">
+                  <input name=return_link_title type=hidden value="eidsbelaleman.com">
+                  <input name=return_link_url type=hidden value=http://eidsbelaleman.com/>
+                  <input type="text" name="Name" placeholder="Name" required>
+                  <input type="email" name="email" id="email" placeholder="E-mail" required>
+                  <textarea name="msg" rows= "4" placeholder="Write your message here" required></textarea>
+                  <input type="hidden" name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT">
+                  <input type="submit" value="send" id="button">
+                  <input type="hidden" name="redirect" value="http://www.eidsbelaleman.com/thanks.htm">
+              </form> -->
 
-   <!--aboutme-->
+              <!-- prueba 3-->
+              <form method="post" action="formmail.php" name="frm">
+                <h2 id="contact-title">Contact me</h2>
+                <input type="hidden" name="redirect" value="http://www.eidsbelaleman.com">
+               <!-- <input type="hidden" name="require" value="e-mail,nome"> -->
 
-    <section class="origins" id="origins">
-        <div><img id="phone" src="images/pinguins.jpg" alt="The Secret History of Women in Coding"></div>
-        <div class="phoneandtext"><h2 class="subtitles" id="sub">   Where I come from?</h2> 
-            <p class="text-origins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue non massa in euismod. Integer eget quam ut elit malesuada placerat. Quisque ornare mauris id vulputate malesuada. Sed at pretium orci. Donec eu metus vitae lorem interdum efficitur id vitae justo. Donec vel mattis mi, vel sodales mi. In vitae justo ex. Phasellus sed est eu nibh elementum vehicula.
-                <span class="break-origins">Duis varius dictum erat, a tempor sapien facilisis quis. Duis vestibulum finibus nulla eu molestie. Donec in euismod turpis, id hendrerit leo. Quisque orci ex, pellentesque eu libero sed, suscipit blandit odio. Suspendisse erat massa, tincidunt a sapien ut, sollicitudin ullamcorper ligula. Maecenas ut mollis urna, eu lobortis velit. Aenean tincidunt massa ut risus elementum cursus. Sed malesuada nisl neque, eu vehicula libero hendrerit at.</span></p>
-        </div>  
-    </section>
+
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <textarea name="msg" rows= "4" placeholder="Write your message here" required></textarea>
+                <input type="submit" value="send" id="button" id="margin">
+                <input name="recipient" type="hidden" value="eidsbel">
+                <input name="subject" type="hidden" value="Qualcuno vuole contattarti">
+               
+            </form>
+
+          </div>
     
     <!--footer-->
     <footer>
-        <div class="footer" id="copyright"><h5>Creado por MMENDEZ</h5></div>
+        <div class="footer" id="copyright"><h5 id="footer-font">Creado por MMENDEZ</h5></div>
     </footer>
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

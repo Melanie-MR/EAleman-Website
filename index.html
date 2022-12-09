@@ -5,68 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c1d53aba1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" id="dark" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title>Eidsbel Aleman</title>
 </head>
-<body>
-    <video autoplay loop muted plays-inline class="back-video">
-        <source src="images\pinguin.mp4" type="video/mp4">
-    </video>
-  
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
     <header>
-        <!--navbar-->
-      
-        <div class="nav">
-            <a class="link-home" href="index.html"><h2 id="logo" class="logo">EIDSBEL ALEMAN</h2></a>
-            <input type="checkbox" id="toggle" value="flag"/>
-            <div class="menu">
-                <ul class="menu__list">
-                    <li class="list-nav"><a class="menu__list--" href="#aboutme">About me</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="#music">Music</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="#dance">Dance</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="#monologue">ESTROPROGESTEDONNA</a></li>
-                    <li class="list-nav"><a class="menu__list--" href="#monologue">Contact me</a></li>
-                    <li class="list-nav"><a class="menu__list-- switch" id= "switch" href="#"><span>Italian</span></a></li>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Eidsbel Aleman</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="#about">About me</a></li>
+                  <li><a href="music.html">Music</a></li>
+                  <li><a href="dance.html">Dance</a></li>
+                  <li><a href="monologue.html">ESTROPROGESTEDONNA</a></li>
+                  <li><a href="contact.html">Contact me</a></li>
+                  <li class="list-nav"><a class="menu__list-- switch" id= "switch" href="#"><span>Italian</span></a></li>
                 </ul>
+
+              </div>
             </div>
-            <label id="hamburger" for="toggle" class="menu2">
-                    <span class="bar"></span>
-                    <span class="exs"></span>
-            </label>
-        </div>
-        
+          </nav>
+
     </header>
 
     <!--main-->
+    <h1 class="inprogress">SITE UNDER MAINTENANCE</h1>    
+<div class="video-intro">
+  <video autoplay muted loop plays-inline class="back-video">
+    <source src="images/ealeman-intro.mp4" type="video/mp4">
+  </video>
+  
+</div>
+    
+
 
     <main class="main__content">  
         <!--music-->
-        <div class="music">
-            <!--title_header-->
-            <div class="artist"> 
-                <h1>Eidsbel Alemn</h1>
-            </div>
-
-    </div>
+       
     <!--dance-->
-    <!--monologue-->
-    <!--contact me-->
+    <!--monologue
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rlZIDf3dsjQ?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <!--contact me-->-->
     <!--italian-->
 
     </main>
 
    <!--aboutme-->
 
-    <section class="origins" id="origins">
-        <div><img id="phone" src="images/pinguins.jpg" alt="The Secret History of Women in Coding"></div>
-        <div class="phoneandtext"><h2 class="subtitles" id="sub">   Where I come from?</h2> 
-            <p class="text-origins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue non massa in euismod. Integer eget quam ut elit malesuada placerat. Quisque ornare mauris id vulputate malesuada. Sed at pretium orci. Donec eu metus vitae lorem interdum efficitur id vitae justo. Donec vel mattis mi, vel sodales mi. In vitae justo ex. Phasellus sed est eu nibh elementum vehicula.
+    <section class="origins" id="about">
+      <div class="aboutme">
+        <div><img id="photo" src="images/eidsbel-photo.jpg" alt="The Secret History of Women in Coding"></div>
+        <div class="text">
+          <h2 class="subtitles" id="sub">   Where I come from?</h2> 
+          <p class="text-origins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue non massa in euismod. Integer eget quam ut elit malesuada placerat. Quisque ornare mauris id vulputate malesuada. Sed at pretium orci. Donec eu metus vitae lorem interdum efficitur id vitae justo. Donec vel mattis mi, vel sodales mi. In vitae justo ex. Phasellus sed est eu nibh elementum vehicula.
                 <span class="break-origins">Duis varius dictum erat, a tempor sapien facilisis quis. Duis vestibulum finibus nulla eu molestie. Donec in euismod turpis, id hendrerit leo. Quisque orci ex, pellentesque eu libero sed, suscipit blandit odio. Suspendisse erat massa, tincidunt a sapien ut, sollicitudin ullamcorper ligula. Maecenas ut mollis urna, eu lobortis velit. Aenean tincidunt massa ut risus elementum cursus. Sed malesuada nisl neque, eu vehicula libero hendrerit at.</span></p>
         </div>  
+      </div>
     </section>
     
     <!--footer-->
     <footer>
         <div class="footer" id="copyright"><h5>Creado por MMENDEZ</h5></div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

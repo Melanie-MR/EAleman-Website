@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap");
+#myPage {
+  background-color: #080808;
+  max-width: 100wh;
+  overflow-x: hidden;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+#copyright {
+  margin: 0;
+}
+
+#footer-font {
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 615px) {
+  .copyright {
+    margin: 0;
+  }
+}
+video {
+  max-width: 100vw;
+  margin-top: -23px;
+}
+
+.video-monologue {
+  display: flex;
+  align-content: center;
+  width: 100vw;
+  margin-left: 10%;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
+#youtube {
+  width: 90%;
+  margin-top: -20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  width: 40%;
+}
+
+.subtitles {
+  color: whitesmoke;
+}
+
+#sub {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.break-origins {
+  display: block;
+  padding-top: 16px;
+}
+
+.text-origins {
+  padding-top: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 615px) {
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+  #youtube {
+    width: 100%;
+    max-width: 100vw;
+  }
+  .text-origins {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=monologue.css.map */
