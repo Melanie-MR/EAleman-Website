@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <title>Eidsbel Aleman</title>
-<body>
+<body class="back-img">
   
     <header>
     <!--navbar-->
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -37,42 +37,13 @@
        
     </header>
     
-
     <!--main-->
 
-        <!--contact form
-        <div class="container">
-            <form action="send.php" method="post" class="contact">
-                <h2 id="contact-title">Contact me</h2>
-                <input type="text" name="Name" placeholder="Name" id="margin" required>
-                <input type="email" name="email" id="email" placeholder="E-mail" id="margin"required>
-                <textarea name="msg" rows= "4" placeholder="Write your message here" id="margin" required></textarea>
-                <input type="submit" value="send" id="button" id="margin">
-            </form>
-        </div>
-        -->
 
             <!--contact form-->
             <div class="container">
-             <!--<form onsubmit="sendEmail(); reset(); return false;" class="contact">-->
-                
-            <!--  prueba 2
-              <form action=http://FormMail.aruba.it/cgi-bin/FormMail.pl method=post class="contact">
+             
 
-                  <h2 id="contact-title">Contact me</h2>
-                  <input name=subject type=hidden value="OGGETTO">
-                  <input name=recipient type=hidden value="info@eidsbelaleman.com">
-                  <input name=return_link_title type=hidden value="eidsbelaleman.com">
-                  <input name=return_link_url type=hidden value=http://eidsbelaleman.com/>
-                  <input type="text" name="Name" placeholder="Name" required>
-                  <input type="email" name="email" id="email" placeholder="E-mail" required>
-                  <textarea name="msg" rows= "4" placeholder="Write your message here" required></textarea>
-                  <input type="hidden" name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT">
-                  <input type="submit" value="send" id="button">
-                  <input type="hidden" name="redirect" value="http://www.eidsbelaleman.com/thanks.htm">
-              </form> -->
-
-              <!-- prueba 3-->
               <form method="post" action="formmail.php" name="frm">
                 <h2 id="contact-title">Contact me</h2>
                 <input type="hidden" name="redirect" value="http://www.eidsbelaleman.com">
@@ -89,12 +60,12 @@
             </form>
 
           </div>
-    
+        
     <!--footer-->
     <footer>
         <div class="footer" id="copyright"><h5 id="footer-font">Creado por MMENDEZ</h5></div>
     </footer>
-    
+  
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 

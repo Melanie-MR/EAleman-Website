@@ -1,35 +1,59 @@
 @import "_general.scss";
 @import "_footer.scss";
+
 //Video Intro
 
-video{
-    max-width: 100vw;
-    margin-top: -23px;
+.video-container{
+  display: flex;
+  align-items: center;
 }
-.video-monologue{
-    display: flex;
-    align-content: center;
-    width: 100vw;
-    margin-left: 10%;
-    
+.video-p {  
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  //position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: -30px;
+  
+}
+.filter{
+  background: rgba(0,0,0,.5);
+ position: fixed;
+  height: 100vw;
+  width: 100vw;
+  margin-top: -20px;
+ 
 }
 
-//about me
+
+
+.link-button {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 7px 20px;
+  //display: inline-block;
+  margin-top: 15px;
+ // margin-left: 35%;
+  color: red;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+//about the monologue
+.main__content{
+  display: flex;
+  flex-direction: column;
+}
 .aboutme{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    max-width: 100%;
+    max-width: 10%;
 
 }
-#youtube{
-  width: 90%;
- //   height: 100vh;
-   // margin-top: -150px;
-   // position: absolute;
-   // margin-left: 0;
-    margin-top: -20px;
-}
+
 
 
 .text{

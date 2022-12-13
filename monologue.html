@@ -12,7 +12,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <header>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,34 +38,37 @@
 
     </header>
 
-    <!--main-->
-    <h1 class="inprogress">SITE UNDER MAINTENANCE</h1>    
-<div class="video-monologue">
-  <video autoplay muted loop plays-inline class="back-video">
-    <source src="images\monologue (Original).mp4" type="video/mp4">
-  </video>
-</div>
+ <!--main-->
+ 
+ <main class="main__content">   
+
+  <!--monologue video--> 
+  <div class="video-container">
+    <h3 id="monologue-title">ESTROPROGESTEDONNA</h3>
+    <button class= "link-button"><a href="https://www.youtube.com/watch?v=WGJSNilM030" target="_blanck">Take a look</a></button>
+    <div>
+      <video class="video-p" poster="css\black-solid-color-background.jpg" autoplay playsinline muted loop>
+        <source src="images\ESTROPROGESTEDONNA.mp4" type="video/mp4">
+        
+      </video>
+    </div>
+    <div class="filter">
+    </div>
     
-
-
-    <main class="main__content">  
-   
-    <!--monologue-->
-
-    
-    <section id="about">
+  </div>
+  <!--about the monologue-->
+  <div id="about">
       <div class="aboutme">
-        <div><iframe id= "youtube" width="620" height="515" src="https://www.youtube.com/embed/rlZIDf3dsjQ?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div class="text">
           <h2 class="subtitles" id="sub">   ESTROPROGESTEDONNA</h2> 
           <p class="text-origins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue non massa in euismod. Integer eget quam ut elit malesuada placerat. Quisque ornare mauris id vulputate malesuada. Sed at pretium orci. Donec eu metus vitae lorem interdum efficitur id vitae justo. Donec vel mattis mi, vel sodales mi. In vitae justo ex. Phasellus sed est eu nibh elementum vehicula.
-                <span class="break-origins">Duis varius dictum erat, a tempor sapien facilisis quis. Duis vestibulum finibus nulla eu molestie. Donec in euismod turpis, id hendrerit leo. Quisque orci ex, pellentesque eu libero sed, suscipit blandit odio. Suspendisse erat massa, tincidunt a sapien ut, sollicitudin ullamcorper ligula. Maecenas ut mollis urna, eu lobortis velit. Aenean tincidunt massa ut risus elementum cursus. Sed malesuada nisl neque, eu vehicula libero hendrerit at.</span></p>
+            <span class="break-origins">Duis varius dictum erat, a tempor sapien facilisis quis. Duis vestibulum finibus nulla eu molestie. Donec in euismod turpis, id hendrerit leo. Quisque orci ex, pellentesque eu libero sed, suscipit blandit odio. Suspendisse erat massa, tincidunt a sapien ut, sollicitudin ullamcorper ligula. Maecenas ut mollis urna, eu lobortis velit. Aenean tincidunt massa ut risus elementum cursus. Sed malesuada nisl neque, eu vehicula libero hendrerit at.</span></p>
         </div>  
       </div>
-    </section>
-    </main>
+    </div>
+</main>
 
-   <!--aboutme-->
+   
 
     
     

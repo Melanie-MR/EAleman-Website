@@ -55,4 +55,29 @@ footer {
   text-align: center;
   font-size: 90px;
   color: #fff;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin-top: -30px;
+}
+
+.filter {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100vw;
+  width: 100vw;
+  margin-top: -20px;
+}
+
+#monologue-title {
+  padding-top: 30vh;
+  padding-left: 35%;
 }/*# sourceMappingURL=music.css.map */
