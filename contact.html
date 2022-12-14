@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <title>Eidsbel Aleman</title>
-<body class="back-img">
+<body class="back-img" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
   
     <header>
     <!--navbar-->
@@ -38,10 +38,9 @@
     </header>
     
     <!--main-->
-
-
+  <div class="contact">
             <!--contact form-->
-            <div class="container">
+            <div class="container-form">
              
 
               <form method="post" action="formmail.php" name="frm">
@@ -56,15 +55,39 @@
                 <input type="submit" value="send" id="button" id="margin">
                 <input name="recipient" type="hidden" value="eidsbel">
                 <input name="subject" type="hidden" value="Qualcuno vuole contattarti">
-               
+            
+<!-- Footer -->
+<footer id="footer-contact" class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with me on social networks:</span>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div>
+      
+    </div>
+  </section>
+  <!-- Copyright -->
+    <div class="text-center p-3">
+      <a class="text-dark" href="https://www.linkedin.com/in/melanie-mendez-r/">© 2023 Copyright: MMendez</a>
+    </div>
+</footer>
+
             </form>
 
           </div>
-        
-    <!--footer-->
-    <footer>
-        <div class="footer" id="copyright"><h5 id="footer-font">Creado por MMENDEZ</h5></div>
-    </footer>
+        </div>
+  
+
   
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

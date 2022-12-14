@@ -3,10 +3,7 @@
 
 //Video Intro
 
-.video-container{
-  display: flex;
-  align-items: center;
-}
+
 .video-p {  
   width: 100vw;
   height: 100vh;
@@ -18,70 +15,57 @@
   margin-top: -30px;
   
 }
-.filter{
-  background: rgba(0,0,0,.5);
- position: fixed;
-  height: 100vw;
-  width: 100vw;
-  margin-top: -20px;
- 
+#button-link {
+  text-decoration: none;
+  color: white;
+  
 }
-
+#monologue-title{
+  color: white;
+  margin-top: -50vh;
+  margin-left: 45%;
+  margin-bottom: 50vh;
+}
 
 
 .link-button {
   border: 2px solid #fff;
   color: #fff;
-  padding: 7px 20px;
+  //padding: 7px 20px;
   //display: inline-block;
-  margin-top: 15px;
- // margin-left: 35%;
-  color: red;
+//  margin-top: 15px;
+
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   letter-spacing: 1px;
 }
-//about the monologue
-.main__content{
+.photos2-3{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh; 
 }
-.aboutme{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 10%;
-
+#photo-mono{
+  width: 50vw;
+  height: 60vh;
 }
 
+#text-mono{
+  width: 35vw;
+  height: 50vh;
+  color: whitesmoke;
+  margin-top: 2%;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
+}
 
+#footer-monologue{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
-.text{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1%;
-    //padding-left:  -5px;
-  width: 40%;
-}
-.subtitles{
-    color: whitesmoke;
-}
-#sub{
-  text-align: left; 
-  margin-top: 30px ;
-
-}
-.break-origins {
-    display: block;
-    padding-top: 16px;
-}
-.text-origins {
-   
-    padding-top: 10px;
-    font-size: 20px;
-    color: whitesmoke;
-    //margin-left: 50%;
-}
 
 @media only screen and (max-width: 615px) {
 
