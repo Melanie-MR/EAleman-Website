@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=IM+Fell+English&family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Raleway:wght@100;200;400&family=Roboto:wght@100;300;400&family=Yrsa:wght@300&display=swap");
 #myPage {
   background-color: #080808;
   max-width: 100wh;
@@ -35,11 +35,15 @@ footer {
   }
   #monologue-title {
     color: white;
-    margin-top: -50vh;
-    margin-left: 45%;
+    margin-top: -55vh;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 50vh;
+    font-family: "Bodoni Moda", serif;
+    font-size: 1000%;
+    max-width: 80vw;
   }
-  .photos2-3 {
+  .photos2-3-mono {
     display: flex;
     height: 60vh;
   }
@@ -47,16 +51,14 @@ footer {
     width: 60vw;
     height: 70vh;
   }
-  #text-mono {
-    width: 35vw;
-    height: 50vh;
+  #text-it {
     color: whitesmoke;
     margin-top: 2%;
     font-size: 20px;
-    width: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     margin-left: 1%;
     margin-right: 1%;
-    text-align: center;
   }
   #footer-monologue {
     margin-top: 1%;
@@ -88,9 +90,13 @@ footer {
   }
   #monologue-title {
     color: white;
-    margin-top: -50vh;
-    margin-left: 45%;
+    margin-top: -55vh;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 50vh;
+    font-family: "Bodoni Moda", serif;
+    font-size: 600%;
+    max-width: 80vw;
   }
   .link-button {
     border: 2px solid #fff;
@@ -99,7 +105,7 @@ footer {
     font-weight: 400;
     letter-spacing: 1px;
   }
-  .photos2-3 {
+  .photos2-3-mono {
     display: flex;
     height: 60vh;
   }
@@ -107,16 +113,14 @@ footer {
     width: 100%;
     height: 70%;
   }
-  #text-mono {
-    width: 35vw;
-    height: 50vh;
+  #text-it {
     color: whitesmoke;
     margin-top: 2%;
     font-size: 20px;
-    width: 50%;
     margin-left: 1%;
     margin-right: 1%;
-    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
   }
   #footer-monologue {
     margin-top: 1%;
@@ -144,35 +148,30 @@ footer {
   }
   #monologue-title {
     color: white;
-    margin-top: -50vh;
-    margin-left: 45%;
+    margin-top: -55vh;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 50vh;
+    font-family: "Bodoni Moda", serif;
+    font-size: 500%;
+    max-width: 80vw;
   }
-  .link-button {
-    border: 2px solid #fff;
-    color: #fff;
-    font-family: "EB Garamond", serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-  }
-  .photos2-3 {
+  .photos2-3-mono {
     display: flex;
     height: 60vh;
   }
   #photo-mono {
     width: 100%;
-    height: 70%;
+    height: 100%;
   }
-  #text-mono {
-    width: 35vw;
-    height: 50vh;
+  #text-it {
     color: whitesmoke;
     margin-top: 2%;
-    font-size: 20px;
-    width: 50%;
+    font-size: 16px;
     margin-left: 1%;
     margin-right: 1%;
-    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
   }
   #footer-monologue {
     margin-top: 1%;
@@ -180,13 +179,38 @@ footer {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .video-p {
+    width: 100vw;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -30px;
+  }
+  #monologue-title {
+    color: white;
+    margin-top: -55vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50vh;
+    font-family: "Bodoni Moda", serif;
+    font-size: 500%;
+    max-width: 80vw;
+  }
   .photos2-3 {
     display: flex;
     flex-direction: column;
   }
-  #text-mono {
-    font-size: 14px;
-    width: 100%;
+  #text-it {
+    color: whitesmoke;
+    margin-top: 2%;
+    font-size: 16px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
   }
   #photo-mono {
     width: 100%;
@@ -194,34 +218,84 @@ footer {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .photos2-3 {
+  .video-p {
+    width: 100vw;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+  #monologue-title {
+    color: white;
+    margin-top: -25vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 25vh;
+    font-family: "Bodoni Moda", serif;
+    font-size: 300%;
+    max-width: 80vw;
+  }
+  #button-link {
+    text-decoration: none;
+    color: white;
+    width: 20px;
+  }
+  .photos2-3-mono {
     display: flex;
     flex-direction: column;
   }
-  #text-mono {
+  #text-it {
     font-size: 14px;
     width: 100%;
+    color: whitesmoke;
+    margin-top: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
   }
   #photo-mono {
-    width: 100%;
-    height: 70%;
+    width: 200%;
+    height: 200%;
   }
   .btn {
     width: 100px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  .photos2-3 {
+  .video-p {
+    width: 100vw;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+  #monologue-title {
+    color: white;
+    margin-top: -25vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 25vh;
+    font-family: "Bodoni Moda", serif;
+    font-size: 200%;
+    max-width: 80vw;
+  }
+  .photos2-3-mono {
     display: flex;
     flex-direction: column;
   }
-  #text-mono {
-    font-size: 14px;
+  #text-it {
+    font-size: 15px;
     width: 100%;
+    color: whitesmoke;
+    margin-top: 2%;
+    margin-right: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
   }
   #photo-mono {
-    width: 90%;
-    height: 100%;
+    width: 200%;
+    height: 200%;
   }
   .btn {
     width: 100px;

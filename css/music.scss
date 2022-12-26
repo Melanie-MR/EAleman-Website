@@ -17,30 +17,34 @@
    // background-attachment: fixed;
 }
 */
+#music-title{
+    font-family: $font-title;
 
+}
 @media only screen and   (min-width:1400px) {
 
 .photos2-3{
     display: flex;
     justify-content: flex start;
-    height: 100vh;
+   // height: 100vh;
    
   }
   #photo2 {
     width: 60vw;
-    height: 80vh;
+   // height: 80vh;
    
   }
   
   #text-music{
     max-width: 45vw;
-    height: 100%;
+   // height: 100%;
     color: whitesmoke;
     margin-top: 120px;
     font-size: 20px;
     max-width: 30%;
     margin-left: 3%;
     text-align: center;
+    font-family: $font-text;
 
   }
 
@@ -48,7 +52,7 @@
     display: block;
     background: transparent;
     color: #fff;
-    min-height: 100vh;
+    //min-height: 100vh;
     margin-left: 15%;
    
 }
@@ -90,23 +94,23 @@ iframe{
     .photos2-3{
         display: flex;
         justify-content: flex start;
-        height: 70vh;
+      //  height: 70vh;
        
       }
       #photo2 {
         width: 50vw;
-        height: 70vh;
+     //   height: 70vh;
       }
       
       #text-music{
         max-width: 45vw;
-        height: 100vh;
+    //    height: 100vh;
         color: whitesmoke;
         margin-top: 120px;
         font-size: 20px;
-      
         margin-left: 2%;
         text-align: center;
+        font-family: $font-text;
     
       }
     
@@ -114,7 +118,7 @@ iframe{
         display: block;
         background: transparent;
         color: #fff;
-        min-height: 100vh;
+        //min-height: 100vh;
         margin-left: 15%;
        
     }
@@ -157,7 +161,7 @@ iframe{
             justify-content: center;
             flex-direction: column;
             height: 70vh;
-            margin-top: 25%;
+            margin-top: 15%;
             margin-left: 10%;
            
           }
@@ -174,6 +178,7 @@ iframe{
             font-size: 20px;
             margin-left: 2%;
             text-align: center;
+            font-family: $font-text;
         
           }
         
@@ -181,7 +186,7 @@ iframe{
             display: block;
             background: transparent;
             color: #fff;
-            min-height: 100vh;
+            //min-height: 100vh;
             margin-left: 15%;
             margin-top: 15%;
            
@@ -237,9 +242,10 @@ iframe{
                // height: 100%;
                 color: whitesmoke;
                 margin-top: 35px;
-                font-size: 20px;
+                font-size: 16px;
                 margin-left: 5%;
                 text-align: center;
+                font-family: $font-text;
             
               }
             
@@ -247,7 +253,7 @@ iframe{
                 display: block;
                 background: transparent;
                 color: #fff;
-                min-height: 100vh;
+              //  min-height: 100vh;
                // margin-left: 15%;
               //  margin-top: 15%;
                

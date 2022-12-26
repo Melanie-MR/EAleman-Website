@@ -34,6 +34,8 @@
     margin-left: 1%;
     margin-right: 1%;
     text-align: center;
+    font-family: $font-text;
+
 
   }
 }
@@ -63,6 +65,8 @@
     margin-left: 15%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: $font-text;
+
 
   }
 }
@@ -92,6 +96,8 @@
     margin-left: 15%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: $font-text;
+
 
   }
 }
@@ -122,6 +128,8 @@
     margin-left: 15%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: $font-text;
+
 
   }
 }
@@ -146,11 +154,13 @@
     height: 100%;
     color: whitesmoke;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 16px;
     max-width: 80%;
     margin-left: 15%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: $font-text;
+
 
   }
 }

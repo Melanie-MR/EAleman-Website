@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=IM+Fell+English&family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Raleway:wght@100;200;400&family=Roboto:wght@100;300;400&family=Yrsa:wght@300&display=swap");
 #myPage {
   background-color: #080808;
   max-width: 100wh;
@@ -11,7 +11,6 @@
   }
   .video-intro {
     width: 100vw;
-    height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
     top: 0;
@@ -23,8 +22,8 @@
   #new-year {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;
   }
   .aboutme {
@@ -44,6 +43,7 @@
   }
   .subtitles {
     color: whitesmoke;
+    font-family: "Bodoni Moda", serif;
   }
   #sub {
     text-align: left;
@@ -54,17 +54,15 @@
   }
   .text-origins {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
-  }
-  .text-origins:hover {
-    display: block;
+    font-family: "Montserrat", sans-serif;
   }
   .photos2-3 {
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
   }
   #photo2 {
     max-width: 33vw;
@@ -85,7 +83,6 @@
   }
   .video-intro {
     width: 100vw;
-    height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
     top: 0;
@@ -97,8 +94,8 @@
   #new-year {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;
   }
   .aboutme {
@@ -118,6 +115,7 @@
   }
   .subtitles {
     color: whitesmoke;
+    font-family: "Bodoni Moda", serif;
   }
   #sub {
     text-align: left;
@@ -128,17 +126,15 @@
   }
   .text-origins {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
-  }
-  .text-origins:hover {
-    display: block;
+    font-family: "Montserrat", sans-serif;
   }
   .photos2-3 {
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
   }
   #photo2 {
     max-width: 33vw;
@@ -153,13 +149,12 @@
     height: 90%;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   video {
     max-width: 100vw;
   }
   .video-intro {
     width: 100vw;
-    height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
     top: 0;
@@ -171,8 +166,8 @@
   #new-year {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;
   }
   .aboutme {
@@ -192,6 +187,7 @@
   }
   .subtitles {
     color: whitesmoke;
+    font-family: "Bodoni Moda", serif;
   }
   #sub {
     text-align: left;
@@ -202,30 +198,174 @@
   }
   .text-origins {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
-  }
-  .text-origins:hover {
-    display: block;
+    font-family: "Montserrat", sans-serif;
   }
   .photos2-3 {
     display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  #photo2 {
+    max-width: 33vw;
+    height: 90%;
+  }
+  #photo3 {
+    max-width: 33vw;
+    height: 90%;
+  }
+  #photo4 {
+    max-width: 33vw;
+    height: 90%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  video {
+    max-width: 100vw;
+  }
+  .video-intro {
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    align-content: center;
+  }
+  #new-year {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+  .aboutme {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    max-width: 100%;
+  }
+  #photo {
     width: 100vw;
+    opacity: 1;
+  }
+  .text {
+    margin-top: 1%;
+    width: 100%;
+  }
+  .subtitles {
+    color: whitesmoke;
+    padding-right: 5%;
+    font-family: "Bodoni Moda", serif;
+  }
+  #sub {
+    margin-top: 30px;
+  }
+  .break-origins {
+    padding-top: 16px;
+  }
+  .text-origins {
+    padding-top: 10px;
+    font-size: 16px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2%;
+    margin-right: 5%;
+  }
+  .photos2-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
   #photo2 {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
   }
   #photo3 {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
   }
   #photo4 {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  video {
+    max-width: 100vw;
+  }
+  .video-intro {
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    align-content: center;
+  }
+  #new-year {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+  }
+  #photo {
+    width: 100vw;
+    opacity: 1;
+  }
+  .text {
+    margin-top: 1%;
+    width: 100%;
+  }
+  .subtitles {
+    color: whitesmoke;
+    padding-right: 5%;
+    font-family: "Bodoni Moda", serif;
+  }
+  #sub {
+    margin-top: 30px;
+  }
+  .break-origins {
+    padding-top: 16px;
+  }
+  .text-origins {
+    padding-top: 10px;
+    font-size: 14px;
+    color: whitesmoke;
+    margin-left: 2%;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 5%;
+  }
+  .photos2-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+  #photo2 {
+    width: 80%;
+    height: 50%;
+  }
+  #photo3 {
+    width: 80%;
+    height: 50%;
+  }
+  #photo4 {
+    width: 80%;
+    height: 50%;
   }
 }
 footer {

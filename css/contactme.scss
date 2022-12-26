@@ -1,6 +1,10 @@
 //Footer 
 @import "_footer.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=IM+Fell+English&family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Raleway:wght@100;200;400&family=Roboto:wght@100;300;400&family=Yrsa:wght@300&display=swap');
 
+
+$font-title: 'Bodoni Moda', serif;
+$font-text: 'Montserrat', sans-serif;
 
 .contact{
     display: flex;
@@ -34,6 +38,8 @@ form{
     flex-direction: column;
     width: 50%;
     height: 100vh;
+    font-family: $font-text;
+
 
 }
 
@@ -45,6 +51,8 @@ form{
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
+    font-family: $font-title;
+
 }
 input, textarea{
   //  margin-bottom: 20px;
@@ -57,6 +65,8 @@ input, textarea{
     background: #f5ecec;
     font-size: 20px;
     border-width: 0;
+    font-family: $font-text;
+
     //border-radius: 5px;
     
 }
@@ -65,11 +75,16 @@ input, textarea{
 }
 input{
     font-size: 20px;
+    font-family: $font-text;
+
+    
 }
 
 
 textarea {
     resize: none;
+    font-family: $font-text;
+
 
   }
 
@@ -78,7 +93,7 @@ textarea {
     background-color: rgb(19, 18, 18);
     color: #fff;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-text;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -104,6 +119,8 @@ textarea {
         border-radius: 0;
         margin-top: 20%;
         padding-left: 0;
+        font-family: $font-text;
+
     }
     .back-img {
         background-image: url("DSC_5324_a.jpg");
