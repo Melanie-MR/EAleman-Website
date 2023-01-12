@@ -4,7 +4,7 @@
 
 //Video Intro
 
-@media only screen and   (min-width:1400px) {
+
 .video-p {  
   width: 100vw;
   height: 100vh;
@@ -28,11 +28,11 @@
 #monologue-title{
   color: white;
   margin-top: -55vh;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-right: 10%;
   margin-bottom: 50vh;
   font-family: $font-title;
-  font-size: 1000%;
+  font-size: 900%;
   max-width: 80vw;
 }
 
@@ -61,7 +61,7 @@
 }
 
 #footer-monologue{
-  margin-top: 1%;
+  margin-top:15vh;
   margin-bottom: 1%;
 }
 
@@ -70,7 +70,7 @@
   flex-direction: column;
  
 }
-}
+
 
 @media only screen and   (min-width:1200px) and (max-width: 1400px) {
   .video-p {  
@@ -140,7 +140,7 @@
   }
   
   #footer-monologue{
-    margin-top: 1%;
+    margin-top: 25vh;
     margin-bottom: 1%;
   }
   
@@ -221,7 +221,6 @@
   #monologue-title{
     color: white;
     margin-top: -55vh;
-    padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 50vh;
     font-family: $font-title;
@@ -251,6 +250,10 @@
    width: 100%;
    height: 70%;
  }
+ #footer-monologue{
+  margin-top: 25vh;
+  margin-bottom: 1%;
+}
  
  }
 
@@ -262,14 +265,13 @@
     //position: fixed;
     top: 0;
     left: 0;
-    //z-index: -1;
+    z-index: -1;
     //margin-top: -30px;
     
   }
   #monologue-title{
     color: white;
     margin-top: -25vh;
-    padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 25vh;
     font-family: $font-title;
@@ -305,12 +307,16 @@
   
   }
   #photo-mono{
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
   }
   
   .btn{
     width: 100px;
+  }
+  #footer-monologue{
+    margin-top: 25vh;
+    margin-bottom: 1%;
   }
   }
  
@@ -323,7 +329,7 @@
     //position: fixed;
     top: 0;
     left: 0;
-    //z-index: -1;
+    z-index: -1;
     //margin-top: -30px;
     
   }
@@ -334,7 +340,7 @@
     padding-right: 5%;
     margin-bottom: 25vh;
     font-family: $font-title;
-    font-size: 200%;
+    font-size: 170%;
     max-width: 80vw;
   }
 .photos2-3-mono{
@@ -354,9 +360,14 @@
      font-weight: 300;
 }
 #photo-mono{
-  width: 200%;
-  height: 200%;
+  width: 100vw;
+  height: 100vh;
 }
+#footer-monologue{
+  margin-top: 60%;
+  margin-bottom: 1%;
+}
+
 .btn{
   width: 100px;
 }

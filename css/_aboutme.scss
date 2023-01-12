@@ -1,10 +1,6 @@
-@media only screen and   (min-width:1800px) {
 //Video Intro
 
-video{
-  max-width: 100vw;
-}
-.video-intro{
+.back-video{
   width: 100vw;
  // height: 100vh;
   object-fit: cover;
@@ -47,7 +43,7 @@ opacity: 1.0;
 .text{
   margin-top: 1%;
   margin-left:  -25%;
-  width: 40%;
+  width: 100%;
 }
 
 
@@ -69,7 +65,8 @@ margin-top: 30px ;
   font-size: 16px;
   color: whitesmoke;
   font-family: $font-text;
-  //margin-left: 50%;
+  margin-right: 5%;
+  margin-left: -15%;
 }
 
 
@@ -96,17 +93,13 @@ max-width: 33vw;
 height: 100%;
 //margin-left: -65%;
 }
-}
 
 
 
 @media only screen and   (min-width:1200px) {
   //Video Intro
-  
-  video{
-    max-width: 100vw;
-  }
-  .video-intro{
+ 
+  .back-video{
     width: 100vw;
   //  height: 100vh;
     object-fit: cover;
@@ -202,10 +195,8 @@ height: 100%;
 
       //Video Intro
   
-  video{
-    max-width: 100vw;
-  }
-  .video-intro{
+ 
+  .back-video{
     width: 100vw;
     //height: 100vh;
     object-fit: cover;
@@ -267,7 +258,7 @@ height: 100%;
   }
   .text-origins {
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 11px;
     color: whitesmoke;
     font-family: $font-text;
     //margin-left: 50%;
@@ -301,10 +292,8 @@ height: 100%;
 
   //Video Intro
 
-video{
-max-width: 100vw;
-}
-.video-intro{
+
+.back-video{
 width: 100vw;
 //height: 100vh;
 object-fit: cover;
@@ -352,12 +341,13 @@ width: 100%;
 
 
 .subtitles{
-color: whitesmoke;
-padding-right: 5%;
-font-family: $font-title;
-
-
-}
+  color: whitesmoke;
+  padding-right: 5%;
+  font-family: $font-title;
+  margin-left: 30%;
+  
+  
+  }
 #sub{
 //text-align: left; 
 margin-top: 30px ;
@@ -369,15 +359,15 @@ margin-top: 30px ;
 padding-top: 16px;
 }
 .text-origins {
-padding-top: 10px;
-font-size: 16px;
-color: whitesmoke;
-font-family: $font-text;
-//margin-left: 50%;
-margin-left: 2%;
-margin-right: 5%;
-}
-
+  padding-top: 10px;
+  font-size: 14px;
+  color: whitesmoke;
+  //margin-left: 50%;
+  margin-left: 30%;
+  font-family: $font-text;
+  margin-right: 5%;
+  width: 85%;
+  }
 .photos2-3{
 display: flex;
 justify-content: center;
@@ -389,16 +379,19 @@ width: 100%;
 #photo2 {
 width: 100vw;
 height: 90vh;
+max-width: 100vw;
 //margin-left: 15%;
 }
 #photo3{
   width: 100vw;
   height: 90vh;
+  max-width: 100vw;
 //margin-left: -65%;
 }
 #photo4{
   width: 100vw;
   height: 90vh;
+  max-width: 100vw;
 //margin-left: -65%;
 }
 }
@@ -407,10 +400,7 @@ height: 90vh;
 
   //Video Intro
 
-video{
-max-width: 100vw;
-}
-.video-intro{
+.back-video{
 width: 100vw;
 //height: 100vh;
 object-fit: cover;
@@ -450,17 +440,18 @@ opacity: 1.0;
 
 }
 
-.text{
+/* .text{
 margin-top: 1%;
 width: 100%;
 
-}
+} */
 
 
 .subtitles{
 color: whitesmoke;
 padding-right: 5%;
 font-family: $font-title;
+margin-left: 30%;
 
 
 }
@@ -479,33 +470,37 @@ padding-top: 10px;
 font-size: 14px;
 color: whitesmoke;
 //margin-left: 50%;
-margin-left: 2%;
+margin-left: 30%;
 font-family: $font-text;
 margin-right: 5%;
+width: 85%;
 }
 
 .photos2-3{
 display: flex;
-justify-content: center;
+//justify-content: center;
 flex-direction: column;
-margin-left: 15%;
+//margin-left: 15%;
 //height: 100%;
 //width: 100%;
 
 }
 #photo2 {
-width: 80%;
-height: 50%;
+width: 100%;
+height: 100%;
+max-width: 100vw;
 //margin-left: 15%;
 }
 #photo3{
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
 //margin-left: -65%;
 }
 #photo4{
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
 //margin-left: -65%;
 }
 }
